@@ -7,4 +7,4 @@ add_library(spine-c STATIC ${SOURCES} ${INCLUDES})
 target_include_directories(spine-c PUBLIC include)
 
 install(TARGETS spine-c DESTINATION lib)
-install(FILES ${INCLUDES} DESTINATION include/spine-c)
+install(FILES ${INCLUDES} DESTINATION include/spine)
